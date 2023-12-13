@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Inter&family=K2D&family=Kadwa&family=Kaisei+HarunoUmi&family=Poppins&display=swap');
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 77, 85, 1) ;
+    flex-direction: center;
+}
+
+img {
+
+float: right;
+margin: 30px;
+
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2em;
@@ -5,32 +21,202 @@ body {
 
 nav {
     border: 1px solid black;
+    background-color: rgba(0, 77, 85, 1);
+ 
+    
 }
 
 main {
-    border: 1px solid black;
-    height: 300px;
+    height: 2090px;
+    color: rgba(255, 255, 255, 1);
 }
+
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     gap: 5em;
+    
+    background-color: 004D55;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 24px;
 }
 
-h2 {
-   text-align: center;
+h1{
+    position: relative;
+    font-family: Kadwa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+h2 {
+    font-family: Inter;
+font-size: 33px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+h3{
+    font-family: Kaisei HarunoUmi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    font-family: K2D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 a.selected {
     text-decoration: underline;
+}
+#rectangle{
+
+    width: main;
+    height:400px;
+    justify-content: center;
+    background:rgba(204, 47, 70, 1);
+}
+
+#mainrectangle {
+    border-radius: 25px;
+    margin-left: 30px;
+    width: 400px;
+    height: 70px;
+    justify-content: center;
+    background:white;
+
+}
+
+#circle {
+    margin-left: 150px;
+	border: 6px solid orange;
+	border-radius: 50%;
+    width: 380px;
+     height: 380px;
+}
+
+h4{
+    width: 600px;
+    text-align: center;
+    position: relative; 
+}
+
+h6{
+    margin-left: 890px;
+    position: relative;
+}
+
+
+
+#rectangle4 {
+    transform: translate(0px,160px);
+    width: main;
+    height:500px;
+    justify-content: center;
+    background:white;
+}
+
+#rectangle5 {
+    margin-left: 30px;
+    width: 263px;
+    height: 40px;
+    justify-content: center;
+    background: white;
+    border: 3px solid black;
+}
+#rectangle7 {
+    transform: translate(600px,-100px);
+    flex: center;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    background: red;
+}
+
+h8 {
+    transform: translate(-500px,-5px);
+    margin-left: 900px;
+    position: relative;
+    font-family: Kadwa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#rectangle8 {
+    margin-top: 30px;
+    width: 5px;
+    height: 20px;
+    justify-content: center;
+    background: white;
+}
+
+#rectanglesmall {
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px,-90px);
+    width: main;
+    height:200px;
+    justify-content: center;
+    background:white;
+}
+
+#circle2 {
+    margin-left: 150px;
+	border: 6px solid white;
+background-color: white;
+	border-radius: 100%;
+    width: 80px;
+     height:80px;  
+}
+
+
+#donationrectangle {
+    transform: translate(0px,-450px);
+    flex: center;
+    margin-left: 30px;
+    width: 1400px;
+    height: 500px;
+    justify-content: center;
+    background: red;
+}
+#rectangle9 {
+    margin-left: 30px;
+    width: 600px;
+    height: 70px;
+    justify-content: center;
+    background: white;
+    border: 6px solid black;
+}
+#rectangle10 {
+    transform: translate(325px,-1470px);
+    flex: center;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    background: red;
+}
+
+#rectangle6 {
+    width: 150px;
+    height: 5px;
+    background: orange;
 }
